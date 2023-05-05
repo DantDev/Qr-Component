@@ -1,8 +1,7 @@
-import { useState } from 'react'
+import React from "react"
 import qrCode from "./assets/image-qr-code.png"
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className='container'>
